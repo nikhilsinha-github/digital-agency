@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+#services{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+#services h1{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5vmax;
+}
+
+.small-line{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    color: black;
+}
+
+.services-header p{
+    padding: 0px 20vmax;
+}
+
+.services_list{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4vmax 2.8vmax;
+}
+
+.services_item{
+    margin: 0;
+    padding: 0;
+    width: 25vmax;
+}
+
+.services_item img{
+    padding-left: 7.5vmax;
+    padding-bottom: 10px;
+    height: 10vmax;
+    width: 10vmax;
+}

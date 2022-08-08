@@ -1,0 +1,23 @@
+#portfolio{
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-content{
+    padding: 100px 25px;
+    background-color: #FAFAFA;
+    width: 50vmax;
+}
+
+.portfolio-content h2{
+    color: #478DFF;
+    padding-bottom: 50px;
+}
+
+#portfolio img{
+    height: 40vmax;
+    width: 60vmax;
+}

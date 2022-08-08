@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    margin: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2vmin;
+}
+  
+.text-blue{
+    color: #1B95E0;
+}
+
+.text-grey{
+    color: #6E6E6E;
+}
+
+.menu-expanded{
+    display: flex;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+ul li{
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 1.4vmax;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #707070;
+    cursor: pointer;
+}
+
+.menu-collapsed{
+    margin: 0;
+    display: none;
+}
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+.active{
+    background: #478DFF;
+    color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:800px)  {
+    .menu-expanded{
+        display: none;
+    }
+
+    .menu-collapsed{
+        display: block;
+        color: #707070;
+        font-size: 6vmin;
+        padding-top: 10px;
+    }
+}
